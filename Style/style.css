@@ -5,3 +5,17 @@
   font-variation-settings:
     "wdth" 100;
 }
+.first{
+  display: flex;
+  justify-content: space-between;
+  width: 1140px;
+  height: 151px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+.second{
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  
+}
