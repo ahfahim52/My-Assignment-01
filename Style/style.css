@@ -5,17 +5,41 @@
   font-variation-settings:
     "wdth" 100;
 }
+.First-part{
+  background-image: url("../Assets/Hero-bg.png");
+  max-width: 1900px;
+  height: 698px;
+  margin: auto;
+  padding:0 0 200px;
+}
 .first{
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  width: 1140px;
-  height: 151px;
+  width: 1500px;
+  /* height: 151px; */
   margin: 0 auto;
-  padding: 0 50px;
+  padding: 0 30px;
 }
 .second{
-  display: inline;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  
+}
+.first-h4{
+  background-color: #4E47FF;
+  color: white;
+  font-weight: bolder;
+  font-size: 16px;
+  padding: 20px;
+  border-radius: 15px;
+  border: none;
+}
+.logo{
+  color: #4E47FF;
+  font-weight: 900;
+  font-size: xx-large;
   
 }
