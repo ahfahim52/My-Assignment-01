@@ -5,6 +5,7 @@
   font-variation-settings:
     "wdth" 100;
 }
+/* First-Part */
 .First-part{
   background-image: url("../Assets/Hero-bg.png");
   max-width: 1900px;
@@ -26,6 +27,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  transform: translateY(300px);
   
 }
 .first-h4{
@@ -40,6 +42,27 @@
 .logo{
   color: #4E47FF;
   font-weight: 900;
-  font-size: xx-large;
-  
+  font-size: xx-large; 
+}
+.text{
+  font-weight: 900;
+  font-size: 40px;
+}
+
+
+/* Second-Part */
+.part-02{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 141px;
+  gap: 328px;
+  height: 328px;
+  /* width: 1140px; */
+}
+.image-01{
+  border-radius: 48px;
+}
+.Action{
+  font-size: 40px;
 }
